@@ -1,0 +1,52 @@
+/* tag name selector*/
+h1 {
+  color: coral !important;
+}
+body{
+  background-color: #123456;
+}
+img {
+  display: block;
+}
+header {
+  color: aliceblue;
+  background-image:url("./img/js.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 200px;
+}
+a {
+  color:blueviolet;
+}
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: orange;
+}
+
+a:hover {
+  color: pink;
+}
+
+
+a:active {
+  color: cyan;
+}
+
+
+
+/* id selector */
+
+#bio {
+  color: rgb(123, 55, 33)
+}
+#bio:hover {
+  font-size: 40px;
+  cursor: help;
+}
+.btn {
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: hsl(120, 50%, 80%);
+}
