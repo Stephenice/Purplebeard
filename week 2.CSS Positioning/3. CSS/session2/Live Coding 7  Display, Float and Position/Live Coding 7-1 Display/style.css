@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+div {
+height: 200px;
+width:200px;
+font-size:20px;
+text-align: center;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.orange {
+  background-color: orange;
+}
+.purple {
+  background-color: purple;
+}
+
+.inlineBlock {
+display: inline-block;
+}
+
+a {
+  font-size: 20px;
+}
+
+.block {
+display: block;
+}
+
+.hidden {
+display: none;
+}

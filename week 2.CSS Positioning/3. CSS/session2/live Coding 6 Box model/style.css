@@ -1,0 +1,23 @@
+/* global Selector */
+
+* {
+box-sizing: border-box;
+}
+
+.card1{
+background-color: rgb(221,239,255);
+border: 2.5px solid rgb(104,104,104);
+padding: 15px;
+width:350px;
+margin: 30px auto;
+border-radius: 20px;
+box-shadow: 8px 8px 5px rgb(216,216,216);
+}
+
+.card2{
+background-color: rgb(255,153,153);
+width:350px;
+padding: 15px;
+margin: 30px auto;
+border:5px solid rgb(104,104,104);
+}
