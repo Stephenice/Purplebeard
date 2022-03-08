@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rem and Em</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p>The Root font is set to 16px</p>
+    <p class="rem1">I am 1rem. The root font is 16px so that is what I am</p>
+    <p class="em1">I am 1em - My parent is the body so I am 16px</p>
+    <hr />
+    <p class="rem2">I am 2Rem - I am two root fonts so 32px</p>
+    <p class="em2">
+      I am 2em - I am two of my parents font size which is the body so I am 32px
+    </p>
+    <hr />
+    <div id="biggerFont">
+      <p>My parent div has a font set of 24px.</p>
+      <p class="rem2">
+        I am 1rem so I am the root font which is 16px. Rem's stay contant where
+        ever they are
+      </p>
+      <p class="em2">
+        I am 1em which is 24px as my parent now had a font-size of 24px. Em's
+        change whenever their parents change font size which can be confusing!
+      </p>
+      <p class="em3">
+        We often set padding in ems or rems as it stay in proportion to text
+        size when user zoom in or change font size.
+      </p>
+    </div>
+  </body>
+</html>

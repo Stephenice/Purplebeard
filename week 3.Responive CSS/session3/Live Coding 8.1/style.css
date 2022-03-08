@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+#red {
+  background-color: red;
+}
+
+#purple {
+  background-color: purple;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#orange {
+  background-color: orange;
+}
+
+/* 1. Add a width of 25%
+2. Add a width of 24% and a border of 0.5%
+see below before coming back to 5
+5. Go to the HTML put a div round the coloured divs 
+and note how the width are now relative to their parent container. */
+
+div {
+  float: left;
+  height: 200px;
+  width:25%;
+  border: 1px solid black;
+}
+
+/* 3. Add a percentage width to large div
+4. Add a percentage width and height to small div
+ note how the width of small div is now relative to it's parent */
+#largeDiv {
+  background-color: grey;
+  height: 200px;
+  width: 50%;
+}
+#smallDiv {
+  background-color: pink;
+  width: 50%;
+}

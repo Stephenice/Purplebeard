@@ -1,0 +1,24 @@
+div {
+  width:25%;
+  display: inline-block;
+  height: auto;
+  vertical-align: top;
+  font-size: 30px;
+}
+
+#blue {
+  background-color: blue;
+
+}
+
+#red {
+  background-color: red;
+}
+
+#em {
+font-size: 2em;
+}
+
+#rem {
+font-size: 2rem;
+}

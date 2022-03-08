@@ -1,0 +1,29 @@
+html {
+  font-size: 16px;
+}
+
+#biggerFont {
+  font-size: 24px;
+  background-color: yellow;
+}
+
+.rem1 {
+  font-size: 1rem;
+}
+
+.em1 {
+  font-size: 1em;
+}
+
+.rem2 {
+  font-size: 1rem;
+}
+
+.em2 {
+  font-size: 1em;
+}
+
+.em3 {
+  font-size: 1em;
+  padding: 1em;
+}

@@ -1,0 +1,39 @@
+/* 1. Add a font size of calc(16px + 0.5vw). 
+Explain calc and why just using vw for text can be abit much.
+2. Add a margin left and right of 5% */
+
+article {
+  text-align: justify;
+  font-size: calc(16px + 0.5vw);
+  margin-left:5%;
+  margin-right: 5%;
+}
+
+/* Add a display none to the image  */
+img {
+  display: none;
+}
+
+/* Change the font size to 20px
+Add a width of 500px
+Change margin to auto */
+@media screen and (min-width: 701px) {
+  article {
+    font-size: 20px;
+    width:500px;
+    margin:auto;
+  }
+}
+
+/* Change to image to display block with a position absolute
+Position it to 2% right and :left
+Give the image a width of 20% */
+@media screen and (min-width: 1000px) {
+  img {
+    display: block;
+    position: absolute;
+    right:2%;
+    left:2%;
+    width: 20%;
+  }
+}

@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+width:200px;
+height:200px;
+color:white;
+text-align:center;
+margin: 10px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.orange {
+  background-color: orange;
+}
+.purple {
+  background-color: purple;
+}
+
+.inlineBlock {
+display: inline-block;
+}
+
+.floatLeft {
+float: left;
+}
+
+.floatRight {
+float: right;
+}
+
+.clearFloat {
+clear: right;
+}

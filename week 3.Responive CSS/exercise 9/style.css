@@ -1,0 +1,92 @@
+* {
+}
+
+html,
+body {
+  /* min-width: 100vw;
+  min-height: 100vh; */
+  background-color: aquamarine;
+}
+
+.verySmall {
+  display: block;
+}
+
+.large,
+.medium,
+.small,
+.veryLarge {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  html,
+  body {
+    background-color: rgb(31, 187, 44);
+  }
+
+  .small {
+    display: block;
+  }
+
+  .large,
+  .medium,
+  .verySmall,
+  .veryLarge {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html,
+  body {
+    background-color: rgb(159, 52, 173);
+  }
+
+  .medium {
+    display: block;
+  }
+
+  .large,
+  .verySmall,
+  .small,
+  .veryLarge {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  html,
+  body {
+    background-color: rgb(202, 33, 146);
+  }
+
+  .large {
+    display: block;
+  }
+
+  .veryLarge,
+  .small,
+  .verySmall,
+  .medium {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  html,
+  body {
+    background-color: rgb(152, 197, 69);
+  }
+
+  .veryLarge {
+    display: block;
+  }
+
+  .medium,
+  .small,
+  .verySmall,
+  .large {
+    display: none;
+  }
+}

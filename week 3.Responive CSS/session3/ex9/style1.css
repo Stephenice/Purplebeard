@@ -1,0 +1,67 @@
+
+/* phone */
+h2 {
+  display: none;
+  color: white;
+}
+body {
+  background-color: black;
+}
+
+/* .very-small {
+  display: block;
+} */
+/* Phone also */
+@media screen and (max-width:600px) {
+  .very-small {
+    display: block;
+  }
+}
+/* Tablet */
+@media screen and (min-width:600px) and (max-width:767px) {
+  body {
+    background-color: aqua;
+  }
+  /* .very-small {
+    display: none;
+  } */
+  .small {
+    display: block;
+  }
+}
+/* small pc */
+@media screen and (min-width:768px) and (max-width:991px) {
+  body {
+    background-color:chartreuse;
+  }
+  /* .small {
+    display: none;
+  } */
+  .medium {
+    display: block;
+  }
+}
+/* large screen */
+@media screen and (min-width:992px) and (max-width:1199px) {
+  body {
+    background-color: aquamarine;
+  }
+  /* .medium {
+    display: none;
+  } */
+  .large{
+    display: block;
+  }
+}
+/* extra large screen */
+@media screen and (min-width:1200px) {
+  body {
+    background-color: lightcoral;
+  }
+  /* .large {
+    display: none;
+  } */
+  .very-large {
+    display: block;
+  }
+}
